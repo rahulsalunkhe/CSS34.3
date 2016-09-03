@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Transition</title>
+</head>
+<body>
+<div id="transitionalDiv"><span>Box<span></div>
+<style type="text/css">
+	#transitionalDiv{
+		height: 100px;
+		width: 100px;
+		background-color: green;
+		color:white;
+		position: relative;
+		transition: all 2s;
+	}
+	#transitionalDiv:hover{
+		border-radius: 50%;
+		background-color: orange;
+		color: white;
+	}
+	span{
+		top: 35px;
+		left: 35px;
+		position: absolute;
+	}
+</style>
+</body>
+</html>
